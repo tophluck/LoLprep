@@ -20,10 +20,10 @@ class Champion extends Component {
     return (
       <Container fluid>
         <Row>
-          <Col size="md-3">
+          <Col size="md-3 sm-3">
             <Full champion={this.state.champion}></Full>
           </Col>
-          <Col size="md-9">
+          <Col size="md-9 sm-9">
             <ChampionInfo champion={this.state.champion}></ChampionInfo>
           </Col>
         </Row>

@@ -6,7 +6,7 @@ export const Full = (props) => (
         <div className="row imageContainer">
             <div className="col">
                 {/*<img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${props.name}_0.jpg`} />*/}
-                <img src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg`} />
+                <img className="championSplash" src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg`} />
             </div>
         </div>
         <div className="row buttonContainer">
