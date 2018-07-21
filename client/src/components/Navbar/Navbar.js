@@ -1,17 +1,18 @@
 import React from "react";
+import icon from "./headmisstress_fiora_icon.png";
 
 const Navbar = () => (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="/">
-                <img src="../../../public/images/headmisstress_fiora_icon.png" width="30" height="30" alt="icon" />
+                <img src={icon} width="50" height="50" alt="icon" />
             </a>
             <ul className="navbar-nav mr-auto">
             <li className="nav-item">
                 <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/TeamComp">TeamComp Builder</a>
+                <a className="nav-link" href="/TeamComp">TeamComp Creator</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="/About">About</a>

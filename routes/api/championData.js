@@ -4,7 +4,7 @@ const championDataController = require("../../controllers/championDataController
 router.route("/api/getChampions")
   .get(championDataController.findAll)
 
-router.route("/api/searchChampion:id")
+router.route("/api/searchChampion/:name")
   .get(championDataController.findByName)
   .get(championDataController.findByTags)
 

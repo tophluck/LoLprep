@@ -1,0 +1,13 @@
+.card-body {
+    border: 1px solid #333333;
+}
+.myHeader {
+    background-color: #333333;
+    color: white;
+    font-size: 40px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}

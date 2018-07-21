@@ -1,0 +1,11 @@
+.champion {
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.champIcon {
+    height: 80px;
+    width: 80px;
+}
